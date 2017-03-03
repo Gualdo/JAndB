@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="La tienda de ropa a tu medida" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FF8-HB-vgd">
+                                <rect key="frame" x="43.5" y="349.5" width="233.5" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="k2h-ea-fAQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="J&amp;B's" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FKk-D4-hh5">
+                                <rect key="frame" x="70.5" y="242.5" width="179" height="83"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="60"/>
+                                <color key="textColor" red="0.99198132753372192" green="0.99604541063308716" blue="0.99596863985061646" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="camiseta-1" translatesAutoresizingMaskIntoConstraints="NO" id="5Qx-9e-b07">
+                                <rect key="frame" x="16" y="384.5" width="288" height="163.5"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.51131602866580828" green="1" blue="0.67987734165737068" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5Qx-9e-b07" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="1eO-Hv-uTN"/>
+                            <constraint firstItem="FKk-D4-hh5" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="3Nq-aa-dlY"/>
+                            <constraint firstItem="FKk-D4-hh5" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="4lZ-HD-30P"/>
+                            <constraint firstItem="5Qx-9e-b07" firstAttribute="top" secondItem="FF8-HB-vgd" secondAttribute="bottom" constant="8" id="UXP-RZ-UvK"/>
+                            <constraint firstItem="5Qx-9e-b07" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="WG0-2c-hme"/>
+                            <constraint firstItem="FF8-HB-vgd" firstAttribute="top" secondItem="FKk-D4-hh5" secondAttribute="bottom" constant="24" id="bdT-bz-5cJ"/>
+                            <constraint firstItem="FF8-HB-vgd" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="duS-29-ZIm"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="5Qx-9e-b07" secondAttribute="bottom" constant="20" id="qPY-6p-eVC"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="camiseta-1" width="221" height="214"/>
+    </resources>
+</document>
